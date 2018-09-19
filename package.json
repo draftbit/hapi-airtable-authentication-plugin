@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "airtable": "^0.5.6",
+    "bcrypt": "^2.0.1",
+    "boom": "^7.2.0",
+    "hapi": "^17.4.0",
+    "joi": "^13.3.0",
+    "jsonwebtoken": "^8.3.0"
+  },
+  "name": "hapi-airtable-authentication-plugin",
+  "description": "Plugin to add JWT-based authentication to a Hapi server using Airtable as a data store",
+  "version": "1.0.0",
+  "main": "main.js",
+  "author": "",
+  "license": "MIT"
+}
