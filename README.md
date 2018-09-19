@@ -19,6 +19,12 @@ await server.register({
 });
 ```
 
+In Airtable, you must have a table called `Users`, with the following columns:
+
+- `email`, of type Email
+- `login_code`, of type Single line text
+- `email_confirmed`, of type Checkbox
+
 The following three routes will be added to your server:
 
 - `/verify` - Generates a JWT token and triggers the first step in the authentication process, calling `verifyCallback`. The following query parameters are required:
