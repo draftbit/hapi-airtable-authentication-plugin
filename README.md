@@ -35,8 +35,8 @@ The following three routes will be added to your server:
 
 All options are required.
 
-`airtableBase` - The ID of the Airtable Base you wish to interact with
-`airtableApiToken` - Your Airtable API key
-`jwtSecret` - A string containing the secret for the HMAC algorithm. [See jsonwebtoken docs](https://github.com/auth0/node-jsonwebtoken#jwtsignpayload-secretorprivatekey-options-callback) for more information
-`apiUrl` - The URL that the Hapi server is public accessible from. This will be used to generate the callback URL
-`verifyCallbacak` - A function that accepts an object with `email`, `verificationUrl`, and `loginCode` keys. This is called after `/verify` is called
+- `airtableBase` - The ID of the Airtable Base you wish to interact with
+- `airtableApiToken` - Your Airtable API key
+- `jwtSecret` - A string containing the secret for the HMAC algorithm. [See jsonwebtoken docs](https://github.com/auth0/node-jsonwebtoken#jwtsignpayload-secretorprivatekey-options-callback) for more information
+- `apiUrl` - The URL that the Hapi server is public accessible from. This will be used to generate the callback URL
+- `verifyCallbacak` - A function that accepts an object with `email`, `verificationUrl`, and `loginCode` keys. This is called after `/verify` is called
