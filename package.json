@@ -11,6 +11,6 @@
   "description": "Plugin to add JWT-based authentication to a Hapi server using Airtable as a data store",
   "version": "1.0.0",
   "main": "main.js",
-  "author": "",
+  "author": "Donald Hruska <donald@draftbit.com>",
   "license": "MIT"
 }
