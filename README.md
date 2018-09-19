@@ -8,7 +8,7 @@ Register the plugin with your Hapi server by doing the following:
 
 ```
 await server.register({
-  plugin: require("hapi-airtable-authentication-plugin"),
+  plugin: require("@draftbit/hapi-airtable-authentication-plugin"),
   options: {
     airtableBase: AIRTABLE_BASE,
     airtableApiToken: AIRTABLE_API_TOKEN,
