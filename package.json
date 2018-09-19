@@ -7,7 +7,7 @@
   },
   "name": "@draftbit/hapi-airtable-authentication-plugin",
   "description": "Plugin to add JWT-based authentication to a Hapi server using Airtable as a data store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "repository": "https://github.com/Preposterous/hapi-airtable-authentication-plugin.git",
   "main": "main.js",
   "author": "Donald Hruska <donald@draftbit.com>",
