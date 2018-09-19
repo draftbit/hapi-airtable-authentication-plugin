@@ -1,6 +1,6 @@
 # Hapi Airtable Authentication Plugin
 
-A plugin that adds JWT-based authentication to a Hapi server, utlizing Airtable as a data store. It will trigger a callback function with a verification callback url that can be used to send an email with a "magic link" style confirmation button.
+A plugin that adds JWT-based authentication to a Hapi server, utilizing Airtable as a data store. It will trigger a callback function with a verification callback url that can be used to send an email with a "magic link" style confirmation button.
 
 ## Usage
 
