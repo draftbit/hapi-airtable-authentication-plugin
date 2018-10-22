@@ -16,6 +16,7 @@ const schema = Joi.object().keys({
 
 module.exports = {
   pkg: require("./package.json"),
+  multiple: true,
   register: async function(server, options) {
     const validSchema = schema.validate(options);
 
